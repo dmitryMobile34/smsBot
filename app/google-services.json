@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463671930650",
+    "project_id": "smsbot-66773",
+    "storage_bucket": "smsbot-66773.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463671930650:android:71d62df14201b6b3ba46a3",
+        "android_client_info": {
+          "package_name": "com.infinitum.smsbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463671930650-4ga43pbtbi59hhoo0esnapjfal1m9ke8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCytbX9_MWBWg-923mAkvej3VxT-EJXpP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463671930650-4ga43pbtbi59hhoo0esnapjfal1m9ke8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

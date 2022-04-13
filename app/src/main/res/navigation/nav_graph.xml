@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.infinitum.smsbot.screens.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_addChannelFragment"
+            app:destination="@id/addChannelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addChannelFragment"
+        android:name="com.infinitum.smsbot.screens.main.AddSenderFragment"
+        android:label="fragment_add_channel"
+        tools:layout="@layout/fragment_add_channel" >
+        <action
+            android:id="@+id/action_addChannelFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
